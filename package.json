@@ -1,0 +1,21 @@
+{
+  "name": "shakespearewriter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A CLI for translating input into .spl variable asignments",
+  "main": "src/index.js",
+  "bin": {
+    "hello": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Running\" && exit 0"
+  },
+  "author": "Will Martin",
+  "license": "ISC",
+  "dependencies": {
+    "sentencer": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/sentencer": "^0.2.0"
+  }
+}
