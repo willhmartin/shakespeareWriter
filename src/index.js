@@ -28,7 +28,7 @@ Sentencer.configure({
     },
   },
 });
-
+// test comment
 function splitStringAndReturnASCII(string) {
   string.split("").forEach(s => {
     ASCIIString.push(s.charCodeAt(0));
