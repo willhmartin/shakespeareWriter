@@ -111,7 +111,7 @@ Sentencer.configure({
     },
   },
 });
-
+console.log(true);
 rl.question("> ", function (string) {
   console.log(getBaseLog(2, string.charCodeAt(0)));
   for (let i = 0; i < getBaseLog(2, string.charCodeAt(0)); i += 1) {
